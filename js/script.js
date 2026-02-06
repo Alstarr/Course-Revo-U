@@ -58,7 +58,7 @@ function loadTodos() {
         const sampleTodos = [
             {
                 id: 1,
-                text: 'Complete SEFC assignment',
+                text: 'Website RevoU done',
                 date: getFormattedDate(new Date()),
                 category: 'work',
                 completed: false,
@@ -66,15 +66,15 @@ function loadTodos() {
             },
             {
                 id: 2,
-                text: 'Buy groceries',
+                text: 'Renang',
                 date: getFormattedDate(new Date(Date.now() + 86400000)), // Tomorrow
-                category: 'shopping',
+                category: 'health',
                 completed: false,
                 createdAt: new Date().toISOString()
             },
             {
                 id: 3,
-                text: 'Morning workout',
+                text: 'Olahraga pagi',
                 date: getFormattedDate(new Date()),
                 category: 'health',
                 completed: true,
